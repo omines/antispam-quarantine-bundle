@@ -1,0 +1,12 @@
+Name: Name
+Email: Email
+Message: Message
+Submit: Submit
+
+languages: Languages
+languages.native:
+  en: English
+  fr: Français
+  de: Deutsch
+  nl: Nederlands
+  ru: русский

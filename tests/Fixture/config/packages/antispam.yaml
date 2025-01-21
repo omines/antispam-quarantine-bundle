@@ -1,0 +1,58 @@
+antispam:
+  stealth: false
+
+  profiles:
+    test1:
+      stealth: false
+
+      banned_markup: true
+      banned_phrases:
+        - 'official partner of Wordpress'
+        - 'with hourly rate'
+        - 'expert developers'
+
+      banned_scripts:
+        - cyrillic
+        - arabic
+
+      timer:
+        min: 15
+        max: 900
+        field: '__custom_timer_field'
+
+      url_count:
+        max: 2
+        max_identical: 1
+
+      honeypot: email_address
+
+    test2:
+      url_count: 1
+
+      banned_markup: true
+      banned_phrases: ['viagra']
+      banned_scripts: cyrillic
+
+      honeypot:
+        field: message
+        attributes:
+          class: "d-none"
+
+    test3:
+      timer:
+        min: 1.2
+        max: 68.4
+      honeypot: email
+
+    stealthy_empty:
+      stealth: true
+
+      banned_phrases: ['spam']
+
+    passive_empty:
+      passive: true
+
+      banned_phrases: ['spam']
+
+    empty:
+

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Symfony Anti-Spam Bundle
+ * Symfony Anti-Spam Quarantine Bundle
  * (c) Omines Internetbureau B.V. - https://omines.nl/
  *
  * For the full copyright and license information, please view the LICENSE
