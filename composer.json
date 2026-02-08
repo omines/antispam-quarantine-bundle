@@ -29,7 +29,7 @@
         "doctrine/doctrine-bundle": "^2.13",
         "ekino/phpstan-banned-code": "^3.0",
         "friendsofphp/php-cs-fixer": "^3.68.0",
-        "infection/infection": "^0.29.8",
+        "infection/infection": "^0.32.0",
         "phpstan/extension-installer": "^1.4.3",
         "phpstan/phpstan": "^2.1.1",
         "phpstan/phpstan-phpunit": "^2.0.3",
